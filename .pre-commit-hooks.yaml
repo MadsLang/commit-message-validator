@@ -1,0 +1,8 @@
+- id: commit-message-validator
+  name: Validate Commit Message
+  entry: commit-message-rules/commit-msg-check.sh
+  language: system
+  always_run: true
+  stages: [commit-msg]
+  pass_filenames: false
+  

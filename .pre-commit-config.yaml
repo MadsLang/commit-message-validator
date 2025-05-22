@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/MadsLang/commit-message-validator.git
+    rev: v1.0.0
+    hooks:
+      - id: commit-message-validator

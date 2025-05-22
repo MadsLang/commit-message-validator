@@ -1,5 +1,3 @@
-[200~#!/bin/bash
-
 # The commit message is passed as the first argument
 commit_msg_file="$1"
 commit_msg=$(cat "$commit_msg_file")
